@@ -15,6 +15,6 @@
 
 В терминале прописываем следующую команду
 ```
-curl -X POST -H "Content-type: application-xml" -d @yourXml.xml http://localhost:80
+curl -X POST -H "Content-type: application/xml" -d @yourXml.xml http://localhost:80
 ```
 В ответ мы получим преобразованный Json или сообщение"Not valid", если Xml некорректно.

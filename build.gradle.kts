@@ -18,8 +18,15 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.json", "json", "20140107")
     compile("com.google.code.gson:gson:2.8.5")
+    compile("org.apache.httpcomponents:httpclient:4.5.7")
+    compile("org.cryptacular:cryptacular:1.2.3")
+    compile("redis.clients:jedis:2.9.0")
+    compile("org.springframework.data:spring-data-redis:2.0.3.RELEASE")
+    compile("com.itextpdf:itextpdf:5.5.10")
+    compile("org.apache.pdfbox:pdfbox:2.0.4")
     testCompile("junit", "junit", "4.12")
 }
+
 
 configure<JavaPluginConvention> {
     sourceCompatibility = JavaVersion.VERSION_1_8

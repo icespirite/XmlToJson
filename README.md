@@ -18,3 +18,9 @@
 curl -X POST -H "Content-type: application/xml" -d @yourXml.xml http://localhost:80
 ```
 В ответ мы получим преобразованный Json или сообщение"Not valid", если Xml некорректно.
+# Exchange rates
+Доп. Сервис поиска дат для выгодной продажи/покупки доллара и евро
+
+## Для теста
+В браузере переходим по URL "localhost:8080/bestDayPdf?startDate=2019-01-20&endDay=2019-01-22".
+В ответ мы получим PDF с таблицей выгодных дат в заданном диапозоне для евро и доллара.
